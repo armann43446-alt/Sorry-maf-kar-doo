@@ -6,8 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#10091e">
   <title>I'm Sorry ❤️</title>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9132611373129455"
-     crossorigin="anonymous"></script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9132611373129455"
+    crossorigin="anonymous"></script>
+
   <style>
     * {
       margin: 0;
@@ -48,12 +51,12 @@
       text-align: center;
       position: relative;
       z-index: 2;
-      border: 1px solid rgba(255, 151, 215, .3);
+      border: 1px solid rgba(255,151,215,.3);
       border-radius: 28px;
-      background: rgba(255, 255, 255, .06);
+      background: rgba(255,255,255,.06);
       backdrop-filter: blur(18px);
       -webkit-backdrop-filter: blur(18px);
-      box-shadow: 0 0 55px rgba(208, 77, 185, .15);
+      box-shadow: 0 0 55px rgba(208,77,185,.15);
       animation: appear 1s ease both;
     }
 
@@ -62,7 +65,7 @@
       padding: 8px 15px;
       margin-bottom: 20px;
       border-radius: 30px;
-      border: 1px solid rgba(255, 115, 185, .3);
+      border: 1px solid rgba(255,115,185,.3);
       color: #ffc0e3;
       font-size: 11px;
       letter-spacing: 2px;
@@ -78,11 +81,11 @@
     }
 
     h1 {
-      font-size: clamp(38px, 10vw, 54px);
+      font-size: clamp(38px,10vw,54px);
       line-height: 1.15;
       margin-bottom: 16px;
       letter-spacing: -1.5px;
-      background: linear-gradient(90deg, #fff, #ff91cd, #c4b5fd);
+      background: linear-gradient(90deg,#fff,#ff91cd,#c4b5fd);
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
@@ -99,7 +102,7 @@
       height: 1px;
       margin: 22px 0;
       background: linear-gradient(
-        90deg, transparent, #ff73b9, #a78bfa, transparent
+        90deg,transparent,#ff73b9,#a78bfa,transparent
       );
     }
 
@@ -121,7 +124,6 @@
       font-family: inherit;
       cursor: pointer;
       transition: transform .2s, box-shadow .2s;
-      -webkit-tap-highlight-color: transparent;
     }
 
     button:active {
@@ -129,23 +131,22 @@
     }
 
     button:hover {
-      box-shadow: 0 5px 25px rgba(255, 115, 185, .3);
+      box-shadow: 0 5px 25px rgba(255,115,185,.3);
     }
 
     .primary {
       color: #301029;
-      background: linear-gradient(100deg, #ff91cd, #d5a7ff);
-      box-shadow: 0 6px 24px rgba(255, 115, 185, .2);
+      background: linear-gradient(100deg,#ff91cd,#d5a7ff);
+      box-shadow: 0 6px 24px rgba(255,115,185,.2);
     }
 
     .secondary {
       color: #ffe3f4;
-      background: rgba(255, 255, 255, .06);
-      border: 1px solid rgba(255, 165, 218, .3);
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,165,218,.3);
     }
 
-    .message,
-    .final-note {
+    .message, .final-note {
       display: none;
       margin-top: 20px;
       padding: 19px;
@@ -153,13 +154,12 @@
       text-align: left;
       line-height: 1.9;
       color: #f7e9fa;
-      background: rgba(255, 115, 185, .08);
-      border: 1px solid rgba(255, 255, 255, .09);
+      background: rgba(255,115,185,.08);
+      border: 1px solid rgba(255,255,255,.09);
       animation: appear .5s ease;
     }
 
-    .message.show,
-    .final-note.show {
+    .message.show, .final-note.show {
       display: block;
     }
 
@@ -170,6 +170,31 @@
     .final-note {
       text-align: center;
       color: #ffd4eb;
+    }
+
+    /* Advertisement area */
+    .ad-wrap {
+      width: 100%;
+      min-height: 100px;
+      margin: 22px 0;
+      padding: 10px;
+      border: 1px solid rgba(255,151,215,.16);
+      border-radius: 14px;
+      background: rgba(255,255,255,.025);
+      overflow: hidden;
+    }
+
+    .ad-label {
+      margin-bottom: 8px;
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      color: #a99ab9;
+      text-transform: uppercase;
+    }
+
+    .ad-wrap ins.adsbygoogle {
+      display: block;
+      min-height: 70px;
     }
 
     .footer {
@@ -188,28 +213,19 @@
     }
 
     @keyframes heartbeat {
-      0%, 100% { transform: scale(1); }
+      0%,100% { transform: scale(1); }
       15% { transform: scale(1.12); }
       30% { transform: scale(1); }
       45% { transform: scale(1.08); }
     }
 
     @keyframes appear {
-      from {
-        opacity: 0;
-        transform: translateY(18px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     @keyframes floatUp {
-      0% {
-        transform: translateY(0) rotate(0);
-        opacity: 0;
-      }
+      0% { transform: translateY(0) rotate(0); opacity: 0; }
       15% { opacity: .7; }
       85% { opacity: .6; }
       100% {
@@ -238,7 +254,6 @@
 
   <main class="card">
     <span class="tag">A Little Message For You</span>
-
     <span class="heart">💗</span>
 
     <h1>I'm Sorry</h1>
@@ -268,26 +283,21 @@
     <div class="message" id="message">
       <strong>Hey, My Special Person... ❤️</strong>
       <br><br>
-
       If anything I said or did hurt you,
       I'm truly sorry. 🥺
       <br><br>
-
       I never wanted to make you feel sad.
       But I understand that my actions may have
       hurt your feelings, and I want to make things right.
       <br><br>
-
       You are special to me, and your feelings
       matter to me more than you know.
       I want to listen to you, understand you,
       and learn from my mistakes.
       <br><br>
-
       I don't expect you to forget everything instantly.
       Take all the time you need.
       <br><br>
-
       <strong>
         I'm truly sorry. If you can, please forgive me. 💗
       </strong>
@@ -301,6 +311,18 @@
     </div>
 
     <div class="divider"></div>
+
+    <!-- Google AdSense ad unit -->
+    <div class="ad-wrap">
+      <div class="ad-label">Advertisement</div>
+
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-9132611373129455"
+           data-ad-slot="YOUR_AD_SLOT_ID"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+    </div>
 
     <p class="footer">
       Made With A Sincere Heart 💗<br>
@@ -351,7 +373,6 @@
 
       for (let i = 0; i < count; i++) {
         const heart = document.createElement("span");
-
         heart.className = "floating-heart";
         heart.textContent =
           symbols[Math.floor(Math.random() * symbols.length)];
@@ -384,6 +405,18 @@
         heart.remove();
       });
     }, 1100);
+
+    // Initialize AdSense only after replacing YOUR_AD_SLOT_ID.
+    const adElement = document.querySelector(".adsbygoogle");
+
+    if (adElement && adElement.dataset.adSlot !== "YOUR_AD_SLOT_ID") {
+      try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (error) {
+        console.warn("AdSense is not ready yet.", error);
+      }
+    }
   </script>
 </body>
-</html>
+    </html>
+      
